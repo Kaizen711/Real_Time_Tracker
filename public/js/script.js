@@ -17,7 +17,7 @@ if (navigator.geolocation) {
   );
 }
 
-const map = L.map("map").setView([0, 0], 20);
+const map = L.map("map").setView([18.9582,72.8320 20);
 L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
   attribution: "OpenStreetMap",
 }).addTo(map);
